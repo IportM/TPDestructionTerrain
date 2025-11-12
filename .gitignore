@@ -1,0 +1,120 @@
+# =========================================================
+# Unreal Engine .gitignore — version 2025
+# Compatible UE 4.x / 5.x
+# =========================================================
+
+# --- Dossiers générés automatiquement ---
+Binaries/
+DerivedDataCache/
+Intermediate/
+Saved/
+Build/
+ScriptHook/
+# (Facultatif) ignorer le dossier "Developers" local
+Developers/
+Config/DefaultEngine.ini
+
+# --- Fichiers et dossiers spécifiques à Unreal ---
+*.VC.db
+*.VC.opendb
+*.sln
+*.suo
+*.xcodeproj
+*.xcworkspace
+*.xcuserdata/
+*.opensdf
+*.sdf
+*.pdb
+*.ipch
+*.log
+*.tlog
+*.obj
+*.idb
+*.pch
+*.cache
+*.db
+*.db-shm
+*.db-wal
+*.tmp
+*.bak
+*.manifest
+*.rsp
+*.exp
+*.lib
+
+# --- Dossiers et fichiers temporaires ---
+.vs/
+.vscode/
+.idea/
+*.iml
+
+# --- Plateformes cibles ---
+# Windows
+*.pdb
+*.exe
+*.dll
+*.lib
+*.app
+*.appx
+*.ipa
+*.dmg
+*.iobj
+*.ipdb
+
+# Mac/Linux specific
+*.dSYM/
+*.DS_Store
+*.AppleDouble
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# --- Plugins compilés ou dérivés ---
+Plugins/*/Intermediate/
+Plugins/*/Binaries/
+Plugins/*/Saved/
+Plugins/*/DerivedDataCache/
+
+# --- Dossiers optionnels d’éditeurs externes ---
+# (Visual Studio, Rider, CLion, etc.)
+.vs/
+.idea/
+.cxx/
+cmake-build*/
+
+# --- Dossiers de build externes ---
+Builds/
+dist/
+bin/
+obj/
+out/
+
+# --- Autres caches et temporaires ---
+*.pidb
+*.userprefs
+*.user
+*.orig
+*.rej
+*.aps
+*.ncb
+*.suo
+*.pyc
+*.pyo
+*.class
+*.sublime-workspace
+*.sublime-project
+
+# --- Fichiers système inutiles ---
+.DS_Store
+Desktop.ini
+Thumbs.db
+
+# =========================================================
+# ✅ À GARDER sous Git :
+# =========================================================
+# - Source/             (C++ et headers)
+# - Config/             (INI configs)
+# - Content/            (Assets)
+# - Plugins/            (si sources)
+# - .uproject           (fichier principal)
+# =========================================================
